@@ -16,16 +16,16 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=230 ctermfg=232 cterm=NONE guibg=#fdffeb guifg=#080808 gui=NONE
     hi NonText ctermbg=230 ctermfg=232 cterm=NONE guibg=#fdffeb guifg=#080808 gui=NONE
     hi Comment ctermbg=NONE ctermfg=243 cterm=NONE guibg=NONE guifg=#767676 gui=NONE
-    hi Constant ctermbg=NONE ctermfg=NONE cterm=bold guibg=NONE guifg=NONE gui=bold
+    hi Constant ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Error ctermbg=9 ctermfg=230 cterm=reverse guibg=#ff0000 guifg=#fdffeb gui=reverse
     hi Identifier ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PreProc ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
+    hi PreProc ctermbg=NONE ctermfg=232 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
     hi Special ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
     hi Statement ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
     hi String ctermbg=NONE ctermfg=243 cterm=italic guibg=NONE guifg=#767676 gui=italic
     hi Todo ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
-    hi Type ctermbg=NONE ctermfg=NONE cterm=bold,italic guibg=NONE guifg=NONE gui=bold,italic
+    hi Type ctermbg=NONE ctermfg=NONE cterm=italic guibg=NONE guifg=NONE gui=italic
     hi Underlined ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi StatusLine ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
