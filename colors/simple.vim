@@ -2,7 +2,7 @@
 " Author:      Sergey Shevtsov (m3xan1k@duck.com)
 " Webpage:     https://github.com/m3xan1k
 " Description: Minimalistic almost monochrome theme
-" Last Change: 2023-04-12
+" Last Change: 2023-05-04
 
 hi clear
 
@@ -13,19 +13,19 @@ endif
 let colors_name = "simple"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
-    hi Normal ctermbg=230 ctermfg=232 cterm=NONE guibg=#fdffeb guifg=#080808 gui=NONE
-    hi NonText ctermbg=230 ctermfg=232 cterm=NONE guibg=#fdffeb guifg=#080808 gui=NONE
-    hi Comment ctermbg=NONE ctermfg=243 cterm=NONE guibg=NONE guifg=#767676 gui=NONE
-    hi Constant ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi Normal ctermbg=230 ctermfg=238 cterm=NONE guibg=#fdffeb guifg=#444444 gui=NONE
+    hi NonText ctermbg=230 ctermfg=238 cterm=NONE guibg=#fdffeb guifg=#444444 gui=NONE
+    hi Comment ctermbg=NONE ctermfg=247 cterm=NONE guibg=NONE guifg=#9e9e9e gui=NONE
+    hi Constant ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
     hi Error ctermbg=9 ctermfg=230 cterm=reverse guibg=#ff0000 guifg=#fdffeb gui=reverse
-    hi Identifier ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
+    hi Identifier ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PreProc ctermbg=NONE ctermfg=243 cterm=NONE guibg=NONE guifg=#767676 gui=NONE
-    hi Special ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
-    hi Statement ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
+    hi PreProc ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
+    hi Special ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
+    hi Statement ctermbg=NONE ctermfg=0 cterm=bold guibg=NONE guifg=#000000 gui=bold
     hi String ctermbg=NONE ctermfg=243 cterm=italic guibg=NONE guifg=#767676 gui=italic
     hi Todo ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
-    hi Type ctermbg=NONE ctermfg=NONE cterm=italic guibg=NONE guifg=NONE gui=italic
+    hi Type ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
     hi Underlined ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi StatusLine ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
@@ -35,8 +35,8 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi TabLineSel ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi Title ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi CursorLine ctermbg=254 ctermfg=NONE cterm=NONE guibg=#e4e4e4 guifg=NONE gui=NONE
-    hi LineNr ctermbg=NONE ctermfg=251 cterm=NONE guibg=NONE guifg=#c6c6c6 gui=NONE
-    hi CursorLineNr ctermbg=NONE ctermfg=232 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
+    hi LineNr ctermbg=NONE ctermfg=247 cterm=NONE guibg=NONE guifg=#9e9e9e gui=NONE
+    hi CursorLineNr ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
     hi helpLeadBlank ctermbg=230 ctermfg=243 cterm=NONE guibg=#fdffeb guifg=#767676 gui=NONE
     hi helpNormal ctermbg=230 ctermfg=243 cterm=NONE guibg=#fdffeb guifg=#767676 gui=NONE
     hi Visual ctermbg=NONE ctermfg=246 cterm=reverse,bold guibg=NONE guifg=#949494 gui=reverse,bold
@@ -52,11 +52,11 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi DiffAdd ctermbg=NONE ctermfg=10 cterm=NONE guibg=NONE guifg=#00ff00 gui=NONE
     hi DiffChange ctermbg=NONE ctermfg=246 cterm=NONE guibg=NONE guifg=#949494 gui=NONE
     hi DiffDelete ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#ff0000 gui=NONE
-    hi DiffText ctermbg=NONE ctermfg=232 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
-    hi IncSearch ctermbg=232 ctermfg=230 cterm=NONE guibg=#080808 guifg=#fdffeb gui=NONE
+    hi DiffText ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
+    hi IncSearch ctermbg=0 ctermfg=230 cterm=NONE guibg=#000000 guifg=#fdffeb gui=NONE
     hi Search ctermbg=243 ctermfg=230 cterm=NONE guibg=#767676 guifg=#fdffeb gui=NONE
     hi Directory ctermbg=NONE ctermfg=NONE cterm=bold guibg=NONE guifg=NONE gui=bold
-    hi MatchParen ctermbg=232 ctermfg=246 cterm=reverse guibg=#080808 guifg=#272981 gui=reverse
+    hi MatchParen ctermbg=0 ctermfg=246 cterm=reverse guibg=#000000 guifg=#272981 gui=reverse
     hi SpellBad ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE guisp=#ff0000
     hi SpellCap ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE guisp=#949494
     hi SpellLocal ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE guisp=#ff00ff
@@ -64,8 +64,8 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi ColorColumn ctermbg=1 ctermfg=NONE cterm=NONE guibg=#800000 guifg=NONE gui=NONE
     hi SignColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi ErrorMsg ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi ModeMsg ctermbg=NONE ctermfg=232 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
-    hi MoreMsg ctermbg=NONE ctermfg=232 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
+    hi ModeMsg ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
+    hi MoreMsg ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
     hi Question ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Cursor ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi CursorColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
@@ -154,5 +154,6 @@ hi link CursorIM Cursor
 hi link Terminal Normal
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-    let g:terminal_ansi_colors = [ '#080808', '#800000', '#008000', '#808000', '#000080', '#800080', '#e4e4e4', '#c6c6c6', '#767676', '#ff0000', '#00ff00', '#ffff00', '#949494', '#ff00ff', '#00ffff', '#fdffeb' ]
+    let g:terminal_ansi_colors = [ '#000000', '#800000', '#008000', '#808000', '#000080', '#800080', '#e4e4e4', '#c6c6c6', '#767676', '#ff0000', '#00ff00', '#ffff00', '#949494', '#ff00ff', '#00ffff', '#fdffeb' ]
 endif
+
