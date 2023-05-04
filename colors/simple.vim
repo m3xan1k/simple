@@ -20,7 +20,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Error ctermbg=9 ctermfg=230 cterm=reverse guibg=#ff0000 guifg=#fdffeb gui=reverse
     hi Identifier ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PreProc ctermbg=NONE ctermfg=232 cterm=NONE guibg=NONE guifg=#080808 gui=NONE
+    hi PreProc ctermbg=NONE ctermfg=243 cterm=NONE guibg=NONE guifg=#767676 gui=NONE
     hi Special ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
     hi Statement ctermbg=NONE ctermfg=232 cterm=bold guibg=NONE guifg=#080808 gui=bold
     hi String ctermbg=NONE ctermfg=243 cterm=italic guibg=NONE guifg=#767676 gui=italic
