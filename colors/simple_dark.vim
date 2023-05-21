@@ -13,8 +13,8 @@ endif
 let colors_name = "simple"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
-    hi Normal ctermbg=236 ctermfg=252 cterm=NONE guibg=#555753 guifg=#d0d0d0 gui=NONE
-    hi NonText ctermbg=236 ctermfg=252 cterm=NONE guibg=#555753 guifg=#d0d0d0 gui=NONE
+    hi Normal ctermbg=236 ctermfg=252 cterm=NONE guibg=#2f2f2f guifg=#d0d0d0 gui=NONE
+    hi NonText ctermbg=236 ctermfg=252 cterm=NONE guibg=#2f2f2f guifg=#d0d0d0 gui=NONE
     hi Comment ctermbg=NONE ctermfg=243 cterm=NONE guibg=NONE guifg=#767676 gui=NONE
     hi Constant ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
     hi Error ctermbg=9 ctermfg=232 cterm=reverse guibg=#ff0000 guifg=#ffffff gui=reverse
@@ -29,7 +29,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Underlined ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi StatusLine ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
-    hi VertSplit ctermbg=236 ctermfg=250 cterm=NONE guibg=#555753 guifg=#bcbcbc gui=NONE
+    hi VertSplit ctermbg=236 ctermfg=250 cterm=NONE guibg=#2f2f2f guifg=#bcbcbc gui=NONE
     hi TabLine ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi TabLineFill ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi TabLineSel ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
@@ -37,8 +37,8 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi CursorLine ctermbg=234 ctermfg=NONE cterm=NONE guibg=#1c1c1c guifg=NONE gui=NONE
     hi LineNr ctermbg=NONE ctermfg=247 cterm=NONE guibg=NONE guifg=#9e9e9e gui=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
-    hi helpLeadBlank ctermbg=236 ctermfg=250 cterm=NONE guibg=#555753 guifg=#bcbcbc gui=NONE
-    hi helpNormal ctermbg=236 ctermfg=250 cterm=NONE guibg=#555753 guifg=#bcbcbc gui=NONE
+    hi helpLeadBlank ctermbg=236 ctermfg=250 cterm=NONE guibg=#2f2f2f guifg=#bcbcbc gui=NONE
+    hi helpNormal ctermbg=236 ctermfg=250 cterm=NONE guibg=#2f2f2f guifg=#bcbcbc gui=NONE
     hi Visual ctermbg=NONE ctermfg=246 cterm=reverse,bold guibg=NONE guifg=#949494 gui=reverse,bold
     hi VisualNOS ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Pmenu ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
