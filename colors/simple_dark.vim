@@ -15,7 +15,7 @@ let colors_name = "simple"
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=236 ctermfg=252 cterm=NONE guibg=#2e3436 guifg=#d0d0d0 gui=NONE
     hi NonText ctermbg=236 ctermfg=252 cterm=NONE guibg=#2e3436 guifg=#d0d0d0 gui=NONE
-    hi Comment ctermbg=NONE ctermfg=247 cterm=NONE guibg=NONE guifg=#9e9e9e gui=NONE
+    hi Comment ctermbg=NONE ctermfg=243 cterm=NONE guibg=NONE guifg=#767676 gui=NONE
     hi Constant ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
     hi Error ctermbg=9 ctermfg=232 cterm=reverse guibg=#ff0000 guifg=#ffffff gui=reverse
     hi Identifier ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
@@ -23,7 +23,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi PreProc ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
     hi Special ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
     hi Statement ctermbg=NONE ctermfg=15 cterm=bold guibg=NONE guifg=#ffffff gui=bold
-    hi String ctermbg=NONE ctermfg=243 cterm=italic guibg=NONE guifg=#767676 gui=italic
+    hi String ctermbg=NONE ctermfg=247 cterm=italic guibg=NONE guifg=#9e9e9e gui=italic
     hi Todo ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi Type ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
     hi Underlined ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
