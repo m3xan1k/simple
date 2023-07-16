@@ -25,7 +25,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Statement ctermbg=NONE ctermfg=0 cterm=bold guibg=NONE guifg=#000000 gui=bold
     hi String ctermbg=NONE ctermfg=243 cterm=italic guibg=NONE guifg=#767676 gui=italic
     hi Todo ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
-    hi Type ctermbg=NONE ctermfg=0 cterm=NONE guibg=NONE guifg=#000000 gui=NONE
+    hi Type ctermbg=NONE ctermfg=243 cterm=NONE guibg=NONE guifg=#767676 gui=NONE
     hi Underlined ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi StatusLine ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
@@ -154,6 +154,6 @@ hi link CursorIM Cursor
 hi link Terminal Normal
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-    let g:terminal_ansi_colors = [ '#000000', '#800000', '#008000', '#808000', '#000080', '#800080', '#e4e4e4', '#c6c6c6', '#767676', '#ff0000', '#00ff00', '#ffff00', '#949494', '#ff00ff', '#00ffff', '#fdf6e3' ]
+    let g:terminal_ansi_colors = [ "#101010", #7c7c7c", #8e8e8e", #a0a0a0", #686868", #747474", #868686", #b9b9b9", #525252", #7c7c7c", #8e8e8e", #a0a0a0", #686868", #747474", #868686", #fdf6e3 " ]
 endif
 

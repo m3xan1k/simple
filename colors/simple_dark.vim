@@ -25,7 +25,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Statement ctermbg=NONE ctermfg=15 cterm=bold guibg=NONE guifg=#ffffff gui=bold
     hi String ctermbg=NONE ctermfg=247 cterm=italic guibg=NONE guifg=#9e9e9e gui=italic
     hi Todo ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
-    hi Type ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
+    hi Type ctermbg=NONE ctermfg=247 cterm=NONE guibg=NONE guifg=#9e9e9e gui=NONE
     hi Underlined ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi StatusLine ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
