@@ -154,6 +154,6 @@ hi link CursorIM Cursor
 hi link Terminal Normal
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-    let g:terminal_ansi_colors = [ "#101010", #7c7c7c", #8e8e8e", #a0a0a0", #686868", #747474", #868686", #b9b9b9", #525252", #7c7c7c", #8e8e8e", #a0a0a0", #686868", #747474", #868686", #fdf6e3 " ]
+    let g:terminal_ansi_colors = [ "#101010", "#7c7c7c", "#8e8e8e", "#a0a0a0", "#686868", "#747474", "#868686", "#b9b9b9", "#525252", "#7c7c7c", "#8e8e8e", "#a0a0a0", "#686868", "#747474", "#868686", "#fdf6e3" ]
 endif
 
